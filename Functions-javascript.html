@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Function
+        </title>
+        <script>
+            function greet()
+            {
+                console.log("Hello World!");
+            }
+            function getPI()
+            {
+                return 3.14;
+            }
+            function getPIValue()
+            {
+                let pi = getPI();
+                console.log(pi);
+            }
+            function getSquare(a)
+            {
+                console.log(a*a);
+            }
+            function findSum(a,b)
+            {
+                let sum = calSum(a,b);
+                console.log(sum);
+            }
+            function calSum(a,b)
+            {
+                return a+b ;
+            }
+        </script>
+    </head>
+    <body>
+        <button type="button" onclick="greet()">greet()</button>
+        <br/><br/>
+        <button type="button" onclick="getPIValue()">getPIValue()</button>
+        <br/><br/>
+        <button type="button" onclick="getSquare(5)">getSquare()</button>
+        <br/><br/>
+        <button type="button" onclick="findSum(5,10)">findSum()</button>
+        <br/><br/>
+    </body>
+</html>
